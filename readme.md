@@ -4,10 +4,10 @@
 
 主要
 
-- [ ] VueJs
+- [X] VueJs
+- [X] Vue Router
 - [ ] Pinia
 - [ ] Axios
-- [ ] Vue Router
 
 其他
 
