@@ -6,8 +6,8 @@
 
 - [X] VueJs
 - [X] Vue Router
-- [ ] Pinia
-- [ ] Axios
+- [X] Pinia
+- [X] Axios
 
 其他
 
