@@ -55,7 +55,7 @@ const add = (num, event) => {
 ## Event Modifiers 事件修飾符
 
 - `.stop`: 阻止事件冒泡，即不再向父元素傳遞。
-- - `.self`: 只當事件是從元素本身觸發時才觸發
+- `.self`: 只當事件是從元素本身觸發時才觸發
 - `.capture`: 添加事件監聽器時使用事件捕獲模式，原本由內部元素觸發的事件，將先在祖先元素上觸發。 inner ->  outer 變成 outer -> inner。
 - `.prevent`: 阻止事件的默認行為
 - `.once`: 事件只觸發一次
