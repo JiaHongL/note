@@ -48,7 +48,6 @@ import { useRoute } from 'vue-router'
 
 export const useSearchFilters = defineStore('search-filters', () => {
   const route = useRoute()
-  // 这里假定 `app.provide('appProvided', 'value')` 已经调用过
   const appProvided = inject('appProvided')
 
   // ...
@@ -64,7 +63,7 @@ export const useSearchFilters = defineStore('search-filters', () => {
 ```vue
 <script setup>
 import { useCounterStore } from '@/stores/counter'
-// 可以在组件中的任意位置访问 `store` 变量 ✨
+// 可以在任何元件使用
 const store = useCounterStore()
 </script>
 ```
@@ -81,3 +80,4 @@ const { name, doubleCount } = storeToRefs(store)
 const { increment } = store
 </script>
 ```
+> storeToRefs：可以安全的保持響應式，避免解構後失效。
