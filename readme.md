@@ -2,16 +2,14 @@
 
 ## 預計學習內容
 
-主要
-
 - [X] VueJs
 - [X] Vue Router
 - [X] Pinia
 - [X] Axios
+- [] Function Programming
 
-其他
+待學習
 
 - [ ] VueUse
 - [ ] NuxtJs
 - [ ] VeeValidate
-
