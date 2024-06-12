@@ -31,8 +31,6 @@ function curriedAdd(x) {
 curriedAdd(1)(2)(3); // 6
 
 // arrow function
-const curriedAdd = (x) => (y) => (z) => x + y + z;
-or
 const curriedAdd = x => y => z => x + y + z;
 ```
 
