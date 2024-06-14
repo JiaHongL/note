@@ -6,7 +6,7 @@
 - [X] Vue Router
 - [X] Pinia
 - [X] Axios
-- [] Function Programming
+- [ ] Function Programming
 
 待學習
 
